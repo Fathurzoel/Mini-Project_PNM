@@ -1,0 +1,68 @@
+/* Quiz.css */
+
+/* Container styling for the entire Quiz page */
+.quiz-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Styling for the search bar and button */
+.search-bar {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+/* Styling for the quiz list */
+.quiz-list {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+/* Styling for each quiz card */
+.quiz-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+/* Styling for quiz card title */
+.quiz-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Styling for quiz card description */
+.quiz-description {
+  margin-top: 10px;
+  color: #666;
+}
+
+/* Styling for buttons in quiz card (edit and delete) */
+.quiz-buttons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Styling for the search button */
+.search-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Hover effect for the search button */
+.search-button:hover {
+  background-color: #0056b3;
+}

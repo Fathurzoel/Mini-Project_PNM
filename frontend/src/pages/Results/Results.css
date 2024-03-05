@@ -1,0 +1,11 @@
+/* frontend/src/pages/Results/Results.css */
+
+/* Add your styling for the Results page components here */
+
+.results-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Add more styles as needed */
